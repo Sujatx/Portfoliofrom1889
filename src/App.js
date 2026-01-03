@@ -6,7 +6,6 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Footer from "./pages/footer";
 import Work from "./pages/work";
-import Hobby from "./pages/hobbies";
 import TechStack from "./pages/tech-stack";
 import Skills from "./pages/skills";
 
@@ -80,9 +79,7 @@ function App() {
           <Work />
         </div>
         
-        <div id="hobby" className="relative">
-          <Hobby />
-        </div>
+
         <div id="contact" className="relative" ref={footerRef}>
           <Footer />
         </div>

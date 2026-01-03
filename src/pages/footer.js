@@ -50,7 +50,7 @@ const Footer = ({ isVisible }) => {
            className='justify-center flex '
         >
         <a
-          href="mailto:shruti128770@gmail.com?subject=Hello Shruti!&body=Hi Shruti,"
+          href="mailto:sujatk891@gmail.com?subject=Hello Sujat!&body=Hi Sujat,"
           className="md:lg:px-7 m-auto bg-yellow mt-5 md:lg:pt-2 md:lg:pb-3 pt-1 pb-2 px-4 4k:px-10 4k:pt-4 4k:pb-5 font-abril text-md md:lg:text-2xl 4k:text-4xl text-black border-4 border-black rounded-full"
         >
           Say Hello!
@@ -61,7 +61,7 @@ const Footer = ({ isVisible }) => {
         <div className="flex font-abril text-3xl flex-row justify-start">
           <div className="hover:text-yellow">
             <a
-              href="https://github.com/shrutitaylor/"
+              href="https://github.com/Sujatx/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -70,7 +70,7 @@ const Footer = ({ isVisible }) => {
           </div>
           <div className="hover:text-yellow">
             <a
-              href="https://linkedin.com/in/shruti-ms/"
+              href="https://www.linkedin.com/in/sujat-khan-441a6a351/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,7 +79,7 @@ const Footer = ({ isVisible }) => {
           </div>
         </div>
         <div className="justify-end font-sora text-right">
-          Portfolio made with love by Shruti.
+          Portfolio made with love by Sujat.
         </div>
       </div>
     </div>

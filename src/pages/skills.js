@@ -6,10 +6,8 @@ import reactImg from "../assets/tech-icons/react.png";
 import javascriptImg from "../assets/tech-icons/js.png";
 import typescriptImg from "../assets/tech-icons/typescript.png";
 import nodeJsImg from "../assets/tech-icons/node-js.png";
-import sqlImg from "../assets/tech-icons/sql.png";
 import pythonImg from "../assets/tech-icons/python.png";
-import dockerImg from "../assets/tech-icons/docker.png";
-import awsImg from "../assets/tech-icons/aws.png";
+
 
 const Skills = () => {
   const initialImages = [
@@ -19,10 +17,7 @@ const Skills = () => {
     { src: javascriptImg, name: "JavaScript" },
     { src: typescriptImg, name: "TypeScript" },
     { src: nodeJsImg, name: "Node.js" },
-    { src: sqlImg, name: "SQL" },
     { src: pythonImg, name: "Python" },
-    { src: dockerImg, name: "Docker" },
-    { src: awsImg, name: "AWS" },
   ];
 
   const [images, setImages] = useState(initialImages);

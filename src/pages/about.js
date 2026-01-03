@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-import profileImage from "../assets/images/profile-img.png";
+import profileImage from "../assets/images/Profile-img.jpg";
 
 const About = () => {
   const [inView, setInView] = useState(false);
   const aboutRef = useRef(null);
   const [scrambledText, setScrambledText] = useState("");
 
-  const finalText = "RMIT GRADUATE";
+  const finalText = "To define is to limit";
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -77,7 +77,7 @@ const About = () => {
         >
           <img
             src={profileImage}
-            alt="Shruti"
+            alt="Sujat"
             className="w-[200px] h-[350px] md:w-[350px] md:lg:h-[500px] 2xl:w-[500px] object-cover relative rounded-[50%]"
           />
           {/* Scramble Text */}
@@ -92,7 +92,7 @@ const About = () => {
       {/* Text Section */}
       <div>
         <h1 className="font-tusker mt-5 text-[50px] md:text-[80px] 2xl:text-[100px]">
-          <span className="text-yellow">Hello! </span> I'm Shruti
+          <span className="text-yellow">Hello! </span> I'm Sujat
         </h1>
         <p className="font-sora text-md md:lg:text-2xl 2xl:text-4xl">
         I blend art and code to create meaningful digital experiences. 
