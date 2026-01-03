@@ -1,49 +1,40 @@
 import React from "react";
 import moodifyImg from "../assets/images/moodify-website.png";
-import soilImg from "../assets/images/soil-website.png";
+import aiImg from "../assets/images/ai.png";
 import barcodeImg from "../assets/images/barcode.png";
-import migrationImg from "../assets/images/pathfindr-website.png"
+import womanlyImg from "../assets/images/womanly.png"
 import { motion } from "framer-motion";
-import boseImg from "../assets/images/bose.png";
+import ExrayImg from "../assets/images/Exray.png";
 
 const Ticket = () => {
     const projects = [
         {
-            image: boseImg,
-            title: "Headphones Product Page",
-            subtitle: "UI/UX Design, Development",
-            techStack: ["React", "GSAP", "Javascript"],
+            image: ExrayImg,
+            title: "Ex-Ray",
+            subtitle: "The Relationship X-Ray Tool",
+            techStack: ["Python", "Javascript"],
             description:
-            "The goal of your project is to create an interactive 3D product showcase for the Bose wireless headphones. As the user scrolls, the camera smoothly transitions between different views",
+            "Ex-Ray is a tiny open-source tool that scans your Instagram DMs and roasts your chat game.",
          
-            link: "https://shrutitaylor.github.io/earphones-v1/",
+            link: "https://github.com/Sujatx/Ex-Ray/",
           },
         {
-          image: soilImg,
-          title: "SOIL - Grocery Website",
-          subtitle: "UI/UX Design, Development",
-          techStack: ["React", "Node.js", "Bootstrap"],
+          image: aiImg,
+          title: "AstroResearch Agent",
+          subtitle: "Full-Stack AI Agent",
+          techStack: ["Python", "JavaScript", "HTML", "CSS"],
           description:
-            "An organic food grocery platform built to promote sustainable living and provide users with a seamless shopping experience. It includes authentication login for secure user access and local storage to enhance usability.",
-          link: "https://shrutitaylor.github.io/SoilOrganicFood.github.io/",
+          "A full-stack AI-powered tool that analyzes astrophysics topics, retrieves relevant research papers, performs domain-specific computations, and generates structured research-style reports.",
+          link: "https://github.com/Sujatx/astroresearch-agent",
         },
         {
-          image: moodifyImg,
-          title: "Moodify",
-          subtitle: "UI/UX Design, Development",
-          techStack: ["React", "Node.js", "Animations"],
+          image: womanlyImg,
+          title: "Womanly",
+          subtitle: "Next.js e-commerce platform",
+          techStack: ["TypeScript", "JavaScript", "CSS", "Next.js"],
           description:
-            "A music mood-based application designed to curate playlists based on user emotions. Features include animations and a sleek user interface for an immersive experience.",
-          link: "https://shrutitaylor.github.io/Moodify-v1.0/",
-        },
-        {
-          image: migrationImg, 
-          title: "Migration Assistant Tool",
-          subtitle: "Automation, AI Integration",
-          techStack: ["React", "Azure AI", "OpenAI"],
-          description:
-            "Designed and implemented a React-based web application to automate document verification for migration processes. Integrated Azure AI and OpenAI for enhanced data verification and accuracy.",
-          link: "https://www.figma.com/proto/eyxtt2dI8LWBpYzDk3PMnk/PathFindr---Project-Aug-2024?node-id=11-229&p=f&t=KsqEx0D4mHmqEW8i-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A653&starting-point-node-id=11%3A229",
+          "Womanly is a modern e-commerce platform built with Next.js, featuring a sleek design and smooth animations to enhance user experience.",
+          link: "https://womanly-beryl.vercel.app/",
         },
       ];
       

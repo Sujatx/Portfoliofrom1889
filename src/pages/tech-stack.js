@@ -4,10 +4,7 @@ import reactImg from "../assets/tech-icons/react.png";
 import javascriptImg from "../assets/tech-icons/js.png";
 import typescriptImg from "../assets/tech-icons/typescript.png";
 import nodeJsImg from "../assets/tech-icons/node-js.png";
-import sqlImg from "../assets/tech-icons/sql.png";
 import pythonImg from "../assets/tech-icons/python.png";
-import dockerImg from "../assets/tech-icons/docker.png";
-import awsImg from "../assets/tech-icons/aws.png";
 
 const TechStack = () => {
   const initialOrder = [
@@ -16,9 +13,7 @@ const TechStack = () => {
     { color: "#fffff0", image: reactImg },
     { color: "#fffff1", image: nodeJsImg },
     { color: "#ffffff", image: pythonImg },
-    { color: "#F5EEE6", image: awsImg },
-    { color: "#FFE920", image: dockerImg },
-    { color: "#3178C7", image: sqlImg },
+
   ];
 
   const [order, setOrder] = useState(initialOrder);

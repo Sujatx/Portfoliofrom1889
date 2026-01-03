@@ -7,7 +7,7 @@ const Navbar = ({ scrolled }) => {
     <nav className={`font-abril sticky mb-0 top-0 z-50 ${scrolled ? "bg-opacity-50" : "bg-transparent"}`}>
       <div className="max-w-screen flex flex-wrap items-center justify-between mx-auto md:mx-10 p-4">
         <a className="flex items-center space-x-3 rtl:space-x-reverse">
-          <span className="2xl:text-4xl self-center text-2xl font-semibold whitespace-nowrap text-white">shruti</span>
+          <span className="2xl:text-4xl self-center text-2xl font-semibold whitespace-nowrap text-white">Sujat</span>
         </a>
 
         <div className="hidden 2xl:text-4xl w-full md:block md:w-auto" id="navbar-default">

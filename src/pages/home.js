@@ -74,9 +74,9 @@ const Home = () => {
             available for work
           </div>
           <div className="flex flex-col font-sora text-[15px] md:lg:text-[20px] 2xl:text-[40px] md:lg:ml-10 mx-5 2xl:ml-20">
-            I am a developer and UX/UI designer based in Melbourne. I have many
-            years of experience in consulting in all areas of digital. I love
-            minimal and brutalist design. I love music and art.
+            Building, breaking, and crafting things.
+            Creating more than I consume.
+            Like the Man said - "to heal the soul through the senses, and the senses through the soul."
           </div>
         </div>
 
@@ -103,7 +103,7 @@ const Home = () => {
           className="flex bottom-1 md:bottom-10 right-0 justify-end mr-5 md:absolute sm:relative 2xl:mr-10"
         >
           <a
-            href="mailto:shruti128770@gmail.com?subject=Hello Shruti!&body=Hi Shruti,"
+            href="mailto:sujatk891@gmail.com?subject=Hello Sujat!&body=Hi Sujat,"
             className="px-5 pt-2 pb-3 2xl:px-10 2xl:pt-4 2xl:pb-5 font-abril text-md md:text-2xl 2xl:text-4xl text-primaryFont border-2 border-primaryFont rounded-full"
           >
             contact me
