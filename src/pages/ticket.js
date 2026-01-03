@@ -25,7 +25,7 @@ const Ticket = () => {
           techStack: ["Python", "JavaScript", "HTML", "CSS"],
           description:
           "A full-stack AI-powered tool that analyzes astrophysics topics, retrieves relevant research papers, performs domain-specific computations, and generates structured research-style reports.",
-          link: "https://github.com/Sujatx/astroresearch-agent",
+          link: "https://astroresearch-agent.vercel.app/",
         },
         {
           image: womanlyImg,
