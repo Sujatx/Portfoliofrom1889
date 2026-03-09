@@ -3,7 +3,7 @@ import "../index.css";
 import { motion } from "framer-motion";
 
 const Home = () => {
-  const [currentDate, setCurrentDate] = useState(getDate());
+  const [currentDate] = useState(getDate());
   const [scrambledDesigner, setScrambledDesigner] = useState("");
   const finalDesignerText = "DESIGNER";
 

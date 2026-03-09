@@ -1,5 +1,4 @@
 import React from "react";
-import moodifyImg from "../assets/images/moodify-website.png";
 import aiImg from "../assets/images/ai.png";
 import barcodeImg from "../assets/images/barcode.png";
 import womanlyImg from "../assets/images/womanly.png"

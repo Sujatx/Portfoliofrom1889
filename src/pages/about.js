@@ -19,13 +19,15 @@ const About = () => {
       }
     );
 
-    if (aboutRef.current) {
-      observer.observe(aboutRef.current);
+    const aboutElement = aboutRef.current;
+
+    if (aboutElement) {
+      observer.observe(aboutElement);
     }
 
     return () => {
-      if (aboutRef.current) {
-        observer.unobserve(aboutRef.current);
+      if (aboutElement) {
+        observer.unobserve(aboutElement);
       }
     };
   }, []);

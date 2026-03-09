@@ -1,8 +1,7 @@
-import { useScroll } from 'framer-motion';
 import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
 
-const Footer = ({ isVisible }) => {
+const Footer = () => {
   const [scrambledText, setScrambledText] = useState("");
   const finalConnectText = "Connect";
 

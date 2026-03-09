@@ -6,7 +6,6 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Footer from "./pages/footer";
 import Work from "./pages/work";
-import TechStack from "./pages/tech-stack";
 import Skills from "./pages/skills";
 
 function App() {
@@ -29,14 +28,16 @@ function App() {
       { threshold: 0.1 }
     );
 
-    if (footerRef.current) {
-      observer.observe(footerRef.current);
+    const footerElement = footerRef.current;
+
+    if (footerElement) {
+      observer.observe(footerElement);
     }
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      if (footerRef.current) {
-        observer.unobserve(footerRef.current);
+      if (footerElement) {
+        observer.unobserve(footerElement);
       }
     };
   }, []);
