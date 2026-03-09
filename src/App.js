@@ -7,6 +7,8 @@ import About from "./pages/about";
 import Footer from "./pages/footer";
 import Work from "./pages/work";
 import Skills from "./pages/skills";
+import { Analytics } from "@vercel/analytics/react";
+
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -44,6 +46,7 @@ function App() {
 
   return (
     <div className="relative">
+      <Analytics />
       {/* Scroll Progress Indicator */}
       <motion.div
         style={{

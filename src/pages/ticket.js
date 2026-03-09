@@ -4,9 +4,20 @@ import barcodeImg from "../assets/images/barcode.png";
 import womanlyImg from "../assets/images/womanly.png"
 import { motion } from "framer-motion";
 import ExrayImg from "../assets/images/Exray.png";
+import jarvisImg from "../assets/images/jarvis.png";
 
 const Ticket = () => {
     const projects = [
+        {
+            image: jarvisImg,
+            title: "Jarvis",
+            subtitle: "The AI Assistant",
+            techStack: ["Python", "PySide6", "Playwright", "SQLite"],
+            description:
+            "An autonomous AI agent for Windows that automates complex tasks through natural language using voice interaction, multi-step reasoning, and an integrated HUD dashboard.",
+         
+            link: "https://github.com/Sujatx/jarvis/",
+          },
         {
             image: ExrayImg,
             title: "Ex-Ray",

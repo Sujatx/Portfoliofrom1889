@@ -14,18 +14,12 @@ Personal portfolio website built with React, Tailwind CSS, and Framer Motion.
 - `npm start`: run locally at `http://localhost:3000`
 - `npm run build`: create production build in `build/`
 - `npm test`: run tests
-- `npm run deploy`: deploy `build/` using `gh-pages`
+
 
 ## Build Notes
 
 CI runs with `CI=true`, so warnings are treated as errors.
 Make sure there are no ESLint warnings before deploying.
 
-## Deployment
 
-This project uses `gh-pages` deployment with:
 
-- `npm run predeploy` -> builds the app
-- `npm run deploy` -> publishes `build/`
-
-If needed, update the `homepage` value in `package.json` based on your hosting path.
