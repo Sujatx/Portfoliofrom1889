@@ -5,9 +5,20 @@ import womanlyImg from "../assets/images/womanly.png"
 import { motion } from "framer-motion";
 import ExrayImg from "../assets/images/Exray.png";
 import jarvisImg from "../assets/images/jarvis.png";
+import shuklaImg from "../assets/images/shuklaupvccraft.png";
 
 const Ticket = () => {
     const projects = [
+        {
+            image: shuklaImg,
+            title: "Shukla Upvccraft",
+            subtitle: "Premium uPVC Windows & Doors",
+            techStack: ["React 19", "Tailwind CSS 4", "Framer Motion", "Radix UI", "Wouter", "Vite 7"],
+            description:
+            "A modern, high-performance web platform for a premium aluminum and uPVC solutions business. It features a polished frontend with rich animations, category-filtered project galleries, and direct WhatsApp integration for enquiries.",
+         
+            link: "https://www.shuklaupvccraft.com/",
+          },
         {
             image: jarvisImg,
             title: "Jarvis",
